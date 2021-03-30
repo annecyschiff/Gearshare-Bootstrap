@@ -2,7 +2,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
-    @media screen and (max-width: 576px) and (min-width: 992px) {
+
+    @media screen and (min-width: 576px) and (max-width: 992px) {
         grid-template-columns: repeat(2, 1fr);
       }
     
