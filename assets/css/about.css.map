@@ -5,8 +5,8 @@
 		"../../scss/about.scss"
 	],
 	"sourcesContent": [
-		"body {\n  padding-top: 5rem;\n}\n.starter-template {\n  padding: 3rem 1.5rem;\n  text-align: center;\n}"
+		"\n.starter-template {\n  padding: 3rem 1.5rem;\n  text-align: center;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,IAAI,CAClB,AACD,AAAA,iBAAiB,AAAC,CAChB,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,MAAM,CACnB"
+	"mappings": "AACA,AAAA,iBAAiB,AAAC,CAChB,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,MAAM,CACnB"
 }
