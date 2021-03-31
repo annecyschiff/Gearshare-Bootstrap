@@ -5,8 +5,8 @@
 		"../../scss/product-grid.scss"
 	],
 	"sourcesContent": [
-		".product-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, 300px);\n    gap: 2.5rem;\n\n    @media screen and (min-width: 576px) and (max-width: 992px) {\n        grid-template-columns: repeat(2, 1fr);\n      }\n    \n      @media screen and (max-width: 576px) {\n        grid-template-columns: repeat(1, 1fr);\n    }\n}\n\n.btn-primary {\n  color: #F0D8B6;\n  background: #9D4019;\n}"
+		".product-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, 300px);\n    gap: 2.5rem;\n\n    @media screen and (min-width: 576px) and (max-width: 992px) {\n        grid-template-columns: repeat(2, 1fr);\n      }\n    \n      @media screen and (max-width: 576px) {\n        grid-template-columns: repeat(1, 1fr);\n    }\n}\n\n.btn-primary {\n  color: #F0D8B6;\n  background: #9D4019;\n  border-color: #9D4019;\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,uBAAuB,CAC9C,GAAG,CAAE,MAAM,CASd,AAPG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK,EAL9D,AAAA,aAAa,AAAC,CAMN,qBAAqB,CAAE,cAAc,CAM5C,CAHK,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EATzC,AAAA,aAAa,AAAC,CAUN,qBAAqB,CAAE,cAAc,CAE5C,CAED,AAAA,YAAY,AAAC,CACX,KAAK,CAAE,OAAO,CACd,UAAU,CAAE,OAAO,CACpB"
+	"mappings": "AAAA,AAAA,aAAa,AAAC,CACV,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,uBAAuB,CAC9C,GAAG,CAAE,MAAM,CASd,AAPG,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK,EAL9D,AAAA,aAAa,AAAC,CAMN,qBAAqB,CAAE,cAAc,CAM5C,CAHK,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EATzC,AAAA,aAAa,AAAC,CAUN,qBAAqB,CAAE,cAAc,CAE5C,CAED,AAAA,YAAY,AAAC,CACX,KAAK,CAAE,OAAO,CACd,UAAU,CAAE,OAAO,CACnB,YAAY,CAAE,OAAO,CACtB"
 }
