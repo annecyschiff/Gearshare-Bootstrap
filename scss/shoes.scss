@@ -151,20 +151,16 @@
     margin-bottom: 2em;
   }
 
-  a.shoes-button:hover > .shoes-button .btn-primary {
-    background-color: #9D4019;
+  .btn-home {
+    background-color: #9D4019 !important;
+    border-color: #9D4019!important;
+    border-width: 2px;
+    color: #F1ECDF !important;
   }
-
-  .shoes-button-2 a {
-    display: block;
-    background-color: #9D4019;
-    border: #9D4019 1px solid;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding: 2em;
-    color: #F1ECDF;
+  
+  .btn-home:hover {
+    background-color:#f5840c !important;
+    color: seashell !important;
   }
-
-  .shoes-button-2 a:hover {
-    background-color: blue;
-  }
+  
+  
