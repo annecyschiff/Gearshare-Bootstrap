@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "contact.css",
+	"sources": [
+		"../../scss/contact.scss"
+	],
+	"sourcesContent": [
+		".container {\n    max-width: 960px;\n  }\n  \n  .border-top { border-top: 1px solid #e5e5e5; }\n  .border-bottom { border-bottom: 1px solid #e5e5e5; }\n  .border-top-gray { border-top-color: #adb5bd; }\n  \n  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }\n  \n  .lh-condensed { line-height: 1.25; }"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,UAAU,AAAC,CACP,SAAS,CAAE,KAAK,CACjB,AAED,AAAA,WAAW,AAAC,CAAE,UAAU,CAAE,iBAAiB,CAAI,AAC/C,AAAA,cAAc,AAAC,CAAE,aAAa,CAAE,iBAAiB,CAAI,AACrD,AAAA,gBAAgB,AAAC,CAAE,gBAAgB,CAAE,OAAO,CAAI,AAEhD,AAAA,WAAW,AAAC,CAAE,UAAU,CAAE,CAAC,CAAC,OAAM,CAAC,OAAM,CAAC,gBAAkB,CAAI,AAEhE,AAAA,aAAa,AAAC,CAAE,WAAW,CAAE,IAAI,CAAI"
+}
