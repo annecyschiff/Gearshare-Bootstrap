@@ -141,13 +141,19 @@
   }
 
   .col {
-    width: 350px;
+    width: 50vw;
+    min-width: 350px;
     margin-left: 8em;
     margin-top: -6em;
     margin-bottom: 3em;
-    margin-right: 1em
+    margin-right: 1em;
   }
 
   .container .product-container {
-    margin-bottom: 1em
+    margin-bottom: 1em;
+  }
+
+  .profile-img {
+    width: 50vw !important;
+    height: 50vw !important;
   }
