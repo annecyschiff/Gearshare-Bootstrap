@@ -123,7 +123,7 @@
   // }
   
   .carousel-nav .flickity-slider {
-    left: 10px !important;
+    left: 8px !important;
     transform: translateX(0%) !important;
   }
   
@@ -134,15 +134,17 @@
   }
 
   .desc {
-    width: 500px;
+    width: 50vw;
     margin-bottom: 3em;
     margin-right: 1em;
   }
 
   .container .product-container {
     margin-bottom: 1em;
+    margin-left: 1em
   }
 
   .profile-img {
-    width: 300px !important;
+    display: block;
+    width: 25vw !important;
   }
