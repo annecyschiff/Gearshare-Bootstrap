@@ -1,7 +1,4 @@
-// .product {
-// }
-
-  .product-container {
+  .user-profile-container {
     //   background-color: #ffffff;
     min-height: 80vh;
     margin-top: 2em;
@@ -15,10 +12,6 @@
       grid-template-columns: repeat(1, 1fr);
       padding: 0;
     }
-  }
-  
-  .product-container.row > * {
-    padding: 0;
   }
   
   .darker-text {
@@ -152,6 +145,6 @@
     margin-bottom: 1em;
   }
 
-  .profile-img {
-    width: 50vw !important;
-  }
+  // .profile-img {
+  //   width: 50vw !important;
+  // }
