@@ -5,8 +5,8 @@
 		"../../scss/listing.scss"
 	],
 	"sourcesContent": [
-		"\n.starter-template {\n    padding: 3rem 1.5rem;\n    text-align: center;\n  }\n  \n  img {\n    padding: 1rem 1.5 rem;\n  }\n  \n  "
+		"\n.starter-template {\n    padding: 3rem 1.5rem;\n    text-align: center;\n  }\n  \n  img {\n    padding: 1rem 1.5 rem;\n  }\n  \n  .btn-primary {\n    color: #f0d8b6; \n    background: #9D4019;\n    border-color: #9D4019;\n  }"
 	],
 	"names": [],
-	"mappings": "AACA,AAAA,iBAAiB,AAAC,CACd,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,MAAM,CACnB,AAED,AAAA,GAAG,AAAC,CACF,OAAO,CAAE,YAAY,CACtB"
+	"mappings": "AACA,AAAA,iBAAiB,AAAC,CACd,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,MAAM,CACnB,AAED,AAAA,GAAG,AAAC,CACF,OAAO,CAAE,YAAY,CACtB,AAED,AAAA,YAAY,AAAC,CACX,KAAK,CAAE,OAAO,CACd,UAAU,CAAE,OAAO,CACnB,YAAY,CAAE,OAAO,CACtB"
 }
