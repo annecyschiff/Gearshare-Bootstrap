@@ -105,3 +105,12 @@ p {
 h2, h5, h4, h3 {
     color: #9D4019;
 }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  
+  div {
+    font-family: myFirstFont;
+  }
