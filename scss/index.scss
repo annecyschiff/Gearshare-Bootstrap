@@ -33,17 +33,19 @@ body {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+  min-height: 300px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
+  color: #F0D8B6 !important;
   z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 18rem;
   background-color: #777;
 }
 .carousel-item > img {
