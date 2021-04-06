@@ -5,8 +5,8 @@
 		"../../scss/about.scss"
 	],
 	"sourcesContent": [
-		"\n.starter-template {\n  padding: 3rem 1.5rem;\n  text-align: center;\n}\n\nimg {\n  padding: 1rem 1.5 rem;\n  width: 100%\n}\n\n"
+		"\n.starter-template {\n  padding: 3rem 1.5rem;\n  text-align: center;\n}\n\nimg {\n  width: 100%\n}\n\n.home-banner-img {\n  background: url(assets/img/931F5663-4492-49BA-996B-6BC6AFEE8A9E.jpeg) no-repeat center center fixed; \n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover;\n  padding: 3em;\n}\n\n@media (max-width: 992px) {\n  .rounded-lg-3 { border-radius: .3rem; }\n  .home-banner-img {\n    background-size: 200% auto;\n    background-position: top right;\n  }\n  .home-banner-img h1, .home-banner-img p, .home-banner-img a {\n    font-size: 1rem !important;\n  }\n}\n"
 	],
 	"names": [],
-	"mappings": "AACA,AAAA,iBAAiB,AAAC,CAChB,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,MAAM,CACnB,AAED,AAAA,GAAG,AAAC,CACF,OAAO,CAAE,YAAY,CACrB,KAAK,CAAE,IACT,CAAC"
+	"mappings": "AACA,AAAA,iBAAiB,AAAC,CAChB,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,MAAM,CACnB,AAED,AAAA,GAAG,AAAC,CACF,KAAK,CAAE,IACT,CAAC,AAED,AAAA,gBAAgB,AAAC,CACf,UAAU,CAAE,yDAAyD,CAAC,SAAS,CAAC,MAAM,CAAC,MAAM,CAAC,KAAK,CACnG,uBAAuB,CAAE,KAAK,CAC9B,oBAAoB,CAAE,KAAK,CAC3B,kBAAkB,CAAE,KAAK,CACzB,eAAe,CAAE,KAAK,CACtB,OAAO,CAAE,GAAG,CACb,AAED,MAAM,EAAE,SAAS,EAAE,KAAK,EACtB,AAAA,aAAa,AAAC,CAAE,aAAa,CAAE,KAAK,CAAI,AACxC,AAAA,gBAAgB,AAAC,CACf,eAAe,CAAE,SAAS,CAC1B,mBAAmB,CAAE,SAAS,CAC/B,AACD,AAAA,gBAAgB,CAAC,EAAE,CAAE,gBAAgB,CAAC,CAAC,CAAE,gBAAgB,CAAC,CAAC,AAAC,CAC1D,SAAS,CAAE,eAAe,CAC3B"
 }
