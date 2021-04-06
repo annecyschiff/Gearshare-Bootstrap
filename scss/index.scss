@@ -18,6 +18,7 @@ body {
 }
 
 .home-banner-img {
+  display: block;
   background: url(https://res.cloudinary.com/dsuq2ag8w/image/upload/v1617743874/index2_nxobk2.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,7 +26,6 @@ body {
   background-size: cover;
   padding: 6em;
   margin-bottom: 2em;
-  height: 100%;
   min-height: 600px;
 }
 
