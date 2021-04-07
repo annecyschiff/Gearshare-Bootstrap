@@ -5,6 +5,11 @@ body {
   .navbar {
     background-color:#9D4019;
     // font-size: 32px;
+    color: $heading-text-colour;
+}
+
+.navbar-brand {
+  font-weight: 800;
 }
 
 

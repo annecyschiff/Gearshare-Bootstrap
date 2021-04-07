@@ -81,16 +81,20 @@ $body-bg: #9D4019;              // RED
 $body-text-colour: #F1ECDF;     // Dark colour for text
 $secondary-highlight: #F0D8B6;  //Secondary highlight colour
 
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap');
+
 body { 
     background-color: #F1ECDF;
+    font-family: 'Coda', sans-serif;
+    font-weight: 400;
 }
 
-h1, h2, h3, h4, h5 {
-    color: $heading-text-colour;
+h1, h2, h3, h4, h5, h6 {
+    color: $body-bg;
+    font-weight: 800;
 }
 
 nav.navbar {
-
     background-color:#9D4019;
 }
 
@@ -102,15 +106,15 @@ p {
     color: #9D4019;
 }
 
-h2, h5, h4, h3 {
+h1, h2, h5, h4, h3 {
     color: #9D4019;
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-  }
+// @font-face {
+//     font-family: myFirstFont;
+//     src: url(sansation_light.woff);
+//   }
   
-  div {
-    font-family: myFirstFont;
-  }
+//   div {
+//     font-family: myFirstFont;
+//   }
