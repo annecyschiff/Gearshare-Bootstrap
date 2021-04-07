@@ -9,13 +9,13 @@ body {
     padding-bottom: 20px;
   }
   
-  .navbar {
+.navbar {
     background-color:#9D4019;
     // font-size: 32px;
     color: $heading-text-colour;
 }
 
-.nav-item a:hover {
+.navbar a:hover, .nav-item a:hover {
   color: $highlight-colour;
 }
 

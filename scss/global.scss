@@ -110,6 +110,18 @@ h1, h2, h5, h4, h3 {
     color: #9D4019;
 }
 
+.gear-button a .btn {
+    background-color: $body-bg !important;
+}
+
+.gear-button a {
+    color: $body-bg;
+}
+
+.gear-button a:hover {
+    color: $highlight-colour;
+}
+
 // @font-face {
 //     font-family: myFirstFont;
 //     src: url(sansation_light.woff);
