@@ -88,6 +88,11 @@
     color: coral;
     font-weight: 700;
   }
+
+  .product-pricing {
+    width: 90vw;
+    margin: 0 auto;
+  }
   
   .custom-select {
     display: inline-block;
@@ -171,7 +176,3 @@
     margin-top: 3em;
   }
 
-  @media (max-width: 473px) { 
-    h4, p {
-      margin-left: 1em;
-    }
