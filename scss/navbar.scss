@@ -9,10 +9,10 @@ body {
     padding-bottom: 20px;
   }
   
-.navbar {
+.navbar  {
     background-color:#9D4019;
     // font-size: 32px;
-    color: $heading-text-colour;
+    color: #F0D8B6 !important;
 }
 
 // .navbar-toggler-icon {
@@ -24,12 +24,12 @@ body {
 // }
 
 .navbar a:hover, .nav-item a:hover {
-  color: $highlight-colour;
+  color: $highlight-colour !important;
 }
 
 .navbar-brand {
   font-weight: 800;
-  color: $secondary-highlight;
+  color: $secondary-highlight !important;
 }
 
 
