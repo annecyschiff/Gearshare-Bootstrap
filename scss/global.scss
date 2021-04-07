@@ -114,12 +114,20 @@ h1, h2, h5, h4, h3 {
     background-color: $body-bg !important;
 }
 
-.gear-button a {
-    color: $body-bg;
+.gear-button a button {
+    color: $secondary-highlight;
 }
 
-.gear-button a:hover {
+.gear-button a button:hover {
     color: $highlight-colour;
+}
+
+.gear-button button:hover {
+    background-color: $highlight-colour;
+}
+
+.learn-btn {
+    margin-bottom: 2em;
 }
 
 // @font-face {
