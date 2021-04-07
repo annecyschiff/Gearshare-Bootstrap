@@ -9,10 +9,14 @@ body {
     padding-bottom: 20px;
   }
   
-.navbar  {
+.navbar a {
     background-color:#9D4019;
     // font-size: 32px;
     color: #F0D8B6 !important;
+}
+
+.navbar .form-control {
+  margin-top: 1em;
 }
 
 // .navbar-toggler-icon {
