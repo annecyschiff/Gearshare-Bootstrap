@@ -19,7 +19,13 @@ img {
   font-size: 1em;
   margin-top: 0;
 }
-
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+}
 
 .home-banner-img {
   background: url(https://res.cloudinary.com/dsuq2ag8w/image/upload/v1617743874/index2_nxobk2.png) no-repeat center center fixed; 
