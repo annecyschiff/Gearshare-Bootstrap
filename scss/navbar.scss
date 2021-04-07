@@ -15,8 +15,14 @@ body {
     color: $heading-text-colour;
 }
 
+.nav-item a:hover {
+  color: $highlight-colour;
+}
+
 .navbar-brand {
   font-weight: 800;
+  color: $secondary-highlight;
+
 }
 
 
