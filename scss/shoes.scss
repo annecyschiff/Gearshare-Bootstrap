@@ -170,3 +170,8 @@
     margin-left: -1.5em;
     margin-top: 3em;
   }
+
+  @media (max-width: 473px) { 
+    h4, p {
+      margin-left: 1em;
+    }
