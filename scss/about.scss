@@ -22,7 +22,7 @@ img {
 
 /* Carousel base class */
 .carousel {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   min-height: 200px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -50,7 +50,7 @@ img {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   min-height: 300px;
 }
 .carousel-item > .first-slide {
@@ -59,6 +59,7 @@ img {
   left: 0;
   min-width: 100%;
   height: 32rem;
+  margin-bottom: 3rem;
 }
 .carousel-caption p {
   margin-bottom: 1.25rem;
