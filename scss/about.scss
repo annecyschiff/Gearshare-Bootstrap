@@ -38,10 +38,9 @@ margin-top: 2em;
 }
 
 /* Declare heights because of positioning of img element */
-// .carousel-item {
-//   height: 18rem;
-//   background-color: 
-// }
+.carousel-item {
+  height: 18rem;
+}
 
 .about-gr {
   font-size: 25vw;
@@ -57,13 +56,17 @@ margin-top: 2em;
   margin-bottom: 3rem;
   min-height: 300px;
 }
-.carousel-item > .first-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 20rem;
-  margin-bottom: 3rem;
+// .carousel-item > .first-slide {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   min-width: 100%;
+//   height: 32rem;
+//   margin-bottom: 3rem;
+// }
+
+.carousel-item.active {
+  background-color: #F1ECDF;
 }
 .carousel-caption p {
   margin-bottom: 1.25rem;
