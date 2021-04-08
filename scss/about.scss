@@ -10,7 +10,7 @@
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 .about-pg-heading {
   font-weight: 300;
@@ -28,6 +28,18 @@ img {
   background-size: cover;
   margin-bottom: 2rem;
   min-height: 300px;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.carousel-caption p {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
 }
 
 @media (max-width: 992px) {
@@ -54,7 +66,6 @@ img {
 /* Padding below the footer and lighter body text */
 
 body {
-  
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
