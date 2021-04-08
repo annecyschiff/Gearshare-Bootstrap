@@ -20,6 +20,32 @@ img {
   margin-top: 0;
 }
 
+/* Carousel base class */
+.carousel {
+  margin-bottom: 1rem;
+  min-height: 300px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  color: #F0D8B6 !important;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 18rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
 .home-banner-img {
   background: url(https://res.cloudinary.com/dsuq2ag8w/image/upload/v1617743874/index2_nxobk2.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
