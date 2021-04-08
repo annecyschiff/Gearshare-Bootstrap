@@ -84,7 +84,7 @@ $secondary-highlight: #F0D8B6;  //Secondary highlight colour
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap');
 
 h1, h3, h4, h5, p, a { 
-    background-color: #F1ECDF;
+   
     font-family: 'Coda', sans-serif;
     font-weight: 400;
 }
@@ -100,6 +100,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
 
+body {
+    background-color: #F1ECDF;
+}
 nav.navbar {
     background-color:#9D4019;
 }
@@ -115,6 +118,7 @@ p {
 h1, h2, h5, h4, h3 {
     color: #9D4019;
 }
+
 
 .gear-button a .btn {
     background-color: $body-bg !important;
