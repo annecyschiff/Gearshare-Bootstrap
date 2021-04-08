@@ -34,12 +34,20 @@ img {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 20rem;
 }
 .carousel-caption p {
   margin-bottom: 1.25rem;
   font-size: 1.25rem;
   line-height: 1.4;
+}
+
+.carousel-item.active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 20rem;
 }
 
 @media (max-width: 992px) {
